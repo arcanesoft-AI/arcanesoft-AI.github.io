@@ -1,24 +1,22 @@
-body {
-    font-family: Arial, sans-serif;
+body, html {
+    height: 100%;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
 }
-header, footer {
-    background-color: #f8f8f8;
-    padding: 1em;
+
+.container {
     text-align: center;
 }
-nav ul {
-    list-style-type: none;
-    padding: 0;
+
+h1 {
+    font-size: 4em;
 }
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-main {
-    padding: 1em;
-}
-button {
-    margin-top: 20px;
+
+.dot {
+    color: yellow;
 }
