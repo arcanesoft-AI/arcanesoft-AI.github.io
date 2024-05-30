@@ -1,0 +1,26 @@
+/* Ensure the entire viewport is covered with a black background and centered content */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+/* Center the text container */
+.container {
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 4em;
+}
+
+/* Style the dot with a yellow color */
+.dot {
+    color: yellow;
+}
